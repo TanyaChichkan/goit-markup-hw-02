@@ -1,0 +1,295 @@
+
+:root {
+--hover-color: #2196F3;
+--accent-color:  #FFFFFF;
+--primary-text-color: #212121;
+--secondary-text-color:#FFFFFF;
+--text-color: #757575;
+}
+
+body {
+background-color: var(--accent-color);
+color: #212121;
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-size: 14px;
+letter-spacing: 0.03em;
+line-height: 1.14;
+}
+
+.none-list {
+    list-style: none;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset (100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Site nav */
+
+.page-header a {
+    text-decoration: none;
+}
+
+/* .page-nav a{
+text-decoration: none;
+} */
+
+/* .site-navigation-contacts a{
+text-decoration: none;
+} */
+
+.site-logo-text {
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+color: var(--primary-text-color);
+}
+
+.site-logo-web {
+color: #2196F3;  
+}
+
+.site-nav-item a{
+color: var(--primary-text-color); 
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+
+.site-nav-link:hover, 
+.site-nav-link:focus {
+color: var(--hover-color);
+}
+
+.site-nav-list li .current {
+color: var(--hover-color);
+}
+
+.site-nav-contacts a {
+font-weight: 500;
+color: var(--text-color);
+letter-spacing: 0.02em;
+}
+
+.sn-contacts-link:hover,
+.sn-contacts-link:focus {
+color: var(--hover-color);
+}
+
+/* Section Hero */
+
+.head-hero {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.06em;
+color: var(--secondary-text-color);
+
+width: 696px;
+height: 120px;
+margin: 0 auto;
+}
+
+.hero {
+background-color: tomato;
+}
+
+
+.button-callback, .button-sign-up {
+background-color: var(--hover-color);
+color: var(--secondary-text-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.86;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+/* Features section */
+
+.features-title {
+font-weight: 700;
+/* line-height: 1.14; */
+text-transform: uppercase;
+/* color: var(--primary-text-color); */
+
+}
+
+.features-text {
+line-height: 1.5;
+color: var(--text-color);
+}
+
+/* Main-content section */
+
+.head-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+/* color: var(--primary-text-color); */
+}
+
+.main-content-title {
+font-size: 14px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+color: var(--secondary-text-color);
+background-color: rgba(47, 48, 58, 0.8);
+}
+
+.main-content-link {
+text-decoration: none;
+}
+
+/* Section team */
+
+.team-social-link-item {
+text-decoration: none;
+}
+
+.team-list-name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+/* text-align: center; */
+color: var(--primary-text-color);
+}
+
+.team-list-text {
+font-size: 16px;
+line-height: 1.18;
+/* text-align: center; */
+color: var(--text-color);
+}
+
+.team-social-link-item:hover,
+.team-social-link-item:focus {
+background-color: var(--hover-color);
+}
+
+
+/* Section customers*/
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+background-color: var(--hover-color);
+}
+
+/* Footer*/
+
+footer {
+background-color:#2F303A;
+}
+
+.site-logo-text.bottom {
+color: var(--secondary-text-color)
+}
+
+.adress-street {
+font-style: normal;
+font-weight: 400;
+line-height: 1.7;
+color: var(--secondary-text-color);
+}
+
+.address-contacts {
+font-style: normal;
+font-weight: 400;
+line-height: 1.7;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-socials-list a {
+text-decoration: none;
+}
+
+.footer-social-link-item:hover,
+.footer-social-link-item:focus {
+background-color: var(--hover-color);
+}
+
+.footer-text {
+font-weight: 700;
+text-transform: uppercase;
+color: var(--secondary-text-color);
+}
+
+
+.form-text {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.86;
+letter-spacing: 0.06em;
+color: var(--secondary-text-color);
+}
+
+
+/* PORTFOLIO PAGE */
+
+/*port-menu section*/
+
+button {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+color: var(--primary-text-color);
+background-color: #F5F4FA;
+letter-spacing: 0.03em;
+}
+
+button:hover,
+button:focus {
+background-color: var(--hover-color);
+color: var(--secondary-text-color);
+cursor: pointer; 
+}
+
+.example-list a {
+text-decoration: none;
+}
+
+.example-list-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+
+.example-list-text {
+font-size: 16px;
+line-height: 1.88;
+color: var(--text-color);
+}
+
+.animation {
+font-size: 18px;
+line-height: 1.56;
+color: #FFFFFF;
+background-color: rgba(33, 150, 243, 0.9);;
+}
+
+
+
+

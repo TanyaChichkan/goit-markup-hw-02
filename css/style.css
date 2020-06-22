@@ -53,7 +53,8 @@ text-decoration: none;
 text-decoration: none;
 } */
 
-.site-logo-text {
+.site-logo {
+text-decoration: none;
 font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 26px;
@@ -200,7 +201,7 @@ footer {
 background-color:#2F303A;
 }
 
-.site-logo-text.bottom {
+.site-logo.bottom {
 color: var(--secondary-text-color)
 }
 

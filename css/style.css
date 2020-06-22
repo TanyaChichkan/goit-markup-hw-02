@@ -77,7 +77,7 @@ letter-spacing: 0.02em;
 color: var(--hover-color);
 }
 
-.site-nav-list li .current {
+.site-nav-list .site-nav-link.current { 
 color: var(--hover-color);
 }
 
